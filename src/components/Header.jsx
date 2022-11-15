@@ -3,6 +3,7 @@ import infos from "../data/Infos.json";
 const { firstName, lastName, objectives, motivation } = infos;
 
 const Header = () => {
+  // Ajouter un style dans le nom de famille, fond en vert avec lettre en gras noir
   return (
     <div className="flex flex-row gap-8 bg-orange-500 w-full h-fit">
       <div

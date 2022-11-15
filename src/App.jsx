@@ -1,10 +1,8 @@
-import infos from "./data/Infos.json";
 import "./App.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
 
 const App = () => {
-  console.log(infos);
   return (
     <div className="bg-slate-50">
       <div className="mx-80">

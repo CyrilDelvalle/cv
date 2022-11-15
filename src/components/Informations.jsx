@@ -8,13 +8,17 @@ const { birthDate, phone, address, mail, car, language } = infos;
 const Informations = () => {
   return (
     <div>
-      <Title>INFORMATIONS</Title>
-      <InformationElement icon="gateau" element={birthDate} />
-      <InformationElement icon="address" element={address} />
-      <InformationElement icon="phone" element={phone} />
-      <InformationElement icon="mail" element={mail} />
-      <InformationElement icon="car" element={car} />
-      <InformationElement icon="language" element={language} />
+      <Title title="INFORMATIONS" />
+      <table className="mt-2">
+        <tbody>
+          <InformationElement icon="gateau" element={birthDate} />
+          <InformationElement icon="address" element={address} />
+          <InformationElement icon="phone" element={phone} />
+          <InformationElement icon="mail" element={mail} />
+          <InformationElement icon="car" element={car} />
+          <InformationElement icon="language" element={language} />
+        </tbody>
+      </table>
     </div>
   );
 };

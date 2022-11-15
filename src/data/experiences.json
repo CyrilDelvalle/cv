@@ -1,0 +1,83 @@
+[
+    {
+        "startDate": "Janv 2022",
+        "endDate": "",
+        "society": "Disneyland Paris",
+        "jobTitle": "Développeur Front-End React",
+        "logo": "disneyland",
+        "isSquare": false,
+        "tasks": [
+            "Développement de composants graphiques sur un storybook.",
+            "Développement Front-end sur la plateforme Disneyland Paris.",
+            "Refactorisation et optimisation de code.",
+            "Déploiement et travail sur NextJS."
+        ]
+    },
+    {
+        "startDate": "Juin 2021",
+        "endDate": "Déc 2021",
+        "society": "Hyperspread",
+        "jobTitle": "Développeur Full-Stack JavaScript",
+        "logo": "hyperspread",
+        "isSquare": true,
+        "tasks": [
+            "Développement d’une application Saas web React/Nextjs.",
+            "Développement back-end NodeJS.",
+            "Review de code PR et peer programming."
+        ]
+    },
+    {
+        "startDate": "Nov 2020",
+        "endDate": "Mai 2021",
+        "society": "Actronika SAS",
+        "jobTitle": "Développeur Full-Stack JavaScript",
+        "logo": "actronika",
+        "isSquare": true,
+        "tasks": [
+            "Création d'une application multi-plateforme de gestion d’effets haptiques avec Electron/ReactJS/TypeScript",
+            "Conception de la partie Front avec HTML/CSS.",
+            "Création de tests unitaires avec Jest.",
+            "Gestion des interactions client/serveur avec Socket.io",
+            "Rédaction du manuel utilisateur."
+        ]
+    },
+    {
+        "startDate": "Janv 2019",
+        "endDate": "Oct 2020",
+        "society": "CSN Energy",
+        "jobTitle": "Développeur Full-Stack .NET",
+        "logo": "csn",
+        "isSquare": true,
+        "tasks": [
+            "Création d'une plateforme web de gestion d’énergie.",
+            "Participation à la conception et l’architecture d'une application.",
+            "Application pratique des livres Clean Code & Clean Architecture."
+        ]
+    },
+    {
+        "startDate": "Janv 2018",
+        "endDate": "Déc 2018",
+        "society": "Phénix seconde vie des produits",
+        "jobTitle": "Développeur Full-Stack .NET",
+        "logo": "phenix",
+        "isSquare": true,
+        "tasks": [
+            "Création d'une plateforme web de dons alimentaires.",
+            "Participation à la conception d'un projet web.",
+            "Création de scripts SQL et procédures stockées.",
+            "Rédaction du manuel utilisateur."
+        ]
+    },
+    {
+        "startDate": "Déc 2015",
+        "endDate": "Déc 2017",
+        "society": "Vente-privée.com",
+        "jobTitle": "Développeur Back-end C#",
+        "logo": "veepee",
+        "isSquare": false,
+        "tasks": [
+            "Création d’une application client lourd en C# WPF et création de procédures stockées SQL.",
+            "Correction de bug et gestion de ticket utilisateur. Gestion de guichet support transport."
+        ]
+    }
+]
