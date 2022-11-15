@@ -1,17 +1,20 @@
-import logo from './logo.svg';
-import infos from './Infos.json'
-import './App.css';
-import Header from './Header';
+import infos from "./data/Infos.json";
+import "./App.css";
+import Header from "./components/Header";
+import Body from "./components/Body";
 
-const  App = () => {
+const App = () => {
   console.log(infos);
   return (
-    <div className="bg-slate-700">
-      <div className='mx-44'>
-        <Header />
+    <div className="bg-slate-50">
+      <div className="mx-80">
+        <div className="bg-slate-200 min-h-screen flex flex-col ">
+          <Header />
+          <Body />
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default App;
