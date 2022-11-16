@@ -6,6 +6,13 @@
         "jobTitle": "Développeur Front-End React",
         "logo": "disneyland",
         "isSquare": false,
+        "skills": [
+            "react",
+            "nodejs",
+            "javascript",
+            "typescript",
+            "csharp"
+        ],
         "tasks": [
             "Développement de composants graphiques sur un storybook.",
             "Développement Front-end sur la plateforme Disneyland Paris.",
@@ -20,6 +27,7 @@
         "jobTitle": "Développeur Full-Stack JavaScript",
         "logo": "hyperspread",
         "isSquare": true,
+        "skills": [],
         "tasks": [
             "Développement d’une application Saas web React/Nextjs.",
             "Développement back-end NodeJS.",
@@ -33,6 +41,7 @@
         "jobTitle": "Développeur Full-Stack JavaScript",
         "logo": "actronika",
         "isSquare": true,
+        "skills": [],
         "tasks": [
             "Création d'une application multi-plateforme de gestion d’effets haptiques avec Electron/ReactJS/TypeScript",
             "Conception de la partie Front avec HTML/CSS.",
@@ -48,6 +57,7 @@
         "jobTitle": "Développeur Full-Stack .NET",
         "logo": "csn",
         "isSquare": true,
+        "skills": [],
         "tasks": [
             "Création d'une plateforme web de gestion d’énergie.",
             "Participation à la conception et l’architecture d'une application.",
@@ -61,6 +71,7 @@
         "jobTitle": "Développeur Full-Stack .NET",
         "logo": "phenix",
         "isSquare": true,
+        "skills": [],
         "tasks": [
             "Création d'une plateforme web de dons alimentaires.",
             "Participation à la conception d'un projet web.",
@@ -75,6 +86,7 @@
         "jobTitle": "Développeur Back-end C#",
         "logo": "veepee",
         "isSquare": false,
+        "skills": [],
         "tasks": [
             "Création d’une application client lourd en C# WPF et création de procédures stockées SQL.",
             "Correction de bug et gestion de ticket utilisateur. Gestion de guichet support transport."

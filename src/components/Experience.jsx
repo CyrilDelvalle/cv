@@ -1,17 +1,15 @@
 import React from 'react'
+import Date from './Date'
+import JobTitle from './JobTitle'
+import Tags from './Tags'
 
-const Experience = ({ startDate, endDate, society, jobTitle, tasks, logo, isSquare }) => {
+const Experience = ({ startDate, endDate, society, jobTitle, tasks, logo, isSquare, skills }) => {
     return (
         <div className='w-full h-full my-4 bg-purple-500'>
             <div className='bg-red-500 flex flex-row justify-between mb-2'>
-                <div >
-                    <div>{society}</div>
-                    <div>{jobTitle}</div>
-                </div>
-                <div className='bg-yellow-400 text-end'>
-                    <div>{startDate}</div>
-                    <div>{' - ' + endDate}</div>
-                </div>
+                <JobTitle society={society} jobTitle={jobTitle} />
+                <Tags skills={skills} />
+                <Date startDate={startDate} endDate={endDate} />
             </div>
             <div className='bg-pink-600 flex'>
                 <div className='w-10/12'>
