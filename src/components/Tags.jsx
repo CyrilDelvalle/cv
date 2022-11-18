@@ -10,7 +10,7 @@ const variants = [{
 }, {
     id: 2,
     name: 'nodejs',
-    display: "Node JS",
+    display: "NodeJS",
     textColor: "text-green-600",
     logo: <SiNodedotjs color='#16a34a' />
 }, {
@@ -28,7 +28,7 @@ const variants = [{
 }, {
     id: 5,
     name: 'nextjs',
-    display: "Next JS",
+    display: "NextJS",
     textColor: "text-slate-200",
     logo: <SiNextdotjs color='#e2e8f0' />
 }, {
@@ -43,23 +43,17 @@ const variants = [{
     display: "CSS",
     textColor: "text-blue-500",
     logo: <SiCss3 color='#3b82f6' />
-}, {
-    id: 8,
-    name: 'nextjs',
-    display: "Next JS",
-    textColor: "text-white",
-    logo: <SiNextcloud color='#fff' />
-}]
+},]
 
 const Tags = ({ skills }) => {
     const tags = skills.map((skill) => variants.find((variant) => variant.name === skill))
 
     return (
-        <div className='flex items-center gap-1 ml-auto'>
+        <div className='flex flex-wrap justify-end  h-auto gap-1 ml-auto w-2/6'>
             {
-                tags.map(({ display, logo, textColor }) => {
+                tags.map(({ display, logo, textColor }, index) => {
                     return (
-                        <span class="bg-gray-100 text-gray-800 gap-2 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                        <span key={'Tags-' + index} className="h-5 bg-gray-100 text-gray-800 gap-2 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
                             {logo}
                             <div className={textColor}>{display}</div>
                         </span>
