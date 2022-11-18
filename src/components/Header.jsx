@@ -3,9 +3,8 @@ import infos from "../data/Infos.json";
 const { firstName, lastName, objectives, motivation } = infos;
 
 const Header = () => {
-  // Ajouter un style dans le nom de famille, fond en vert avec lettre en gras noir
   return (
-    <div className="flex flex-row gap-8 bg-orange-500 w-full h-fit">
+    <div className="flex flex-row gap-8 w-full h-fit">
       <div
         style={{
           clipPath:
@@ -19,15 +18,10 @@ const Header = () => {
           alt="profile"
         />
       </div>
-      <div className="bg-green-600 w-full p-8 flex flex-col justify-between ">
-        <div className="">
-          <div className="font-sans text-4xl">{firstName + " " + lastName}</div>
-          <div className="font-sans italic">{objectives}</div>
-        </div>
-        <div className="">
-          <div className="">MES OBJECTIFS</div>
-          <div>{motivation}</div>
-        </div>
+      <div className=" w-full p-8 flex flex-col justify-between ">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">{firstName} <mark class="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">{lastName}</mark></h1>
+        <p class="mb-4 text-lg italic font-normal text-gray-500 lg:text-xl dark:text-gray-400">{objectives}</p>
+        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">{motivation}</p>
       </div>
     </div>
   );

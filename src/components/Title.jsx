@@ -1,7 +1,7 @@
 import React from "react";
 
 const Title = ({ title }) => {
-  return <div className="text-3xl text-center">{title}</div>;
+  return <h3 class="text-2xl text-center font-bold dark:text-white">{title}</h3>
 };
 
 export default Title;

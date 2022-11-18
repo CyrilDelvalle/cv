@@ -1,64 +1,72 @@
 import React from 'react'
-import { FaReact, FaNodeJs } from 'react-icons/fa'
-import { IoLogoJavascript } from 'react-icons/io'
-import { SiTypescript } from "react-icons/si"
-import { TbBrandNextjs } from 'react-icons/tb'
-import { SiCsharp } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiNextdotjs, SiCss3, SiNextcloud } from "react-icons/si"
 
 const variants = [{
     id: 1,
     name: 'react',
     display: "React",
     textColor: "text-sky-500",
-    logo: <FaReact color='#0ea5e9' />
+    logo: <SiReact color='#0ea5e9' />
 }, {
     id: 2,
     name: 'nodejs',
     display: "Node JS",
     textColor: "text-green-600",
-    logo: <FaNodeJs color='#16a34a' />
+    logo: <SiNodedotjs color='#16a34a' />
 }, {
     id: 3,
     name: 'javascript',
-    display: "Javascript",
+    display: "JS",
     textColor: "text-amber-400",
-    logo: <IoLogoJavascript color='#fbbf24' />
+    logo: <SiJavascript color='#fbbf24' />
 }, {
     id: 4,
     name: 'typescript',
-    display: "Typecript",
-    textColor: "text-blue-800",
-    logo: <SiTypescript color='#1e40af' />
+    display: "TS",
+    textColor: "text-white",
+    logo: <SiTypescript color='#fff' />
 }, {
     id: 5,
     name: 'nextjs',
     display: "Next JS",
     textColor: "text-slate-200",
-    logo: <TbBrandNextjs color='#e2e8f0' />
+    logo: <SiNextdotjs color='#e2e8f0' />
 }, {
     id: 6,
     name: 'csharp',
     display: "C#",
     textColor: "text-purple-700",
     logo: <SiCsharp color='#7e22ce' />
+}, {
+    id: 7,
+    name: 'css',
+    display: "CSS",
+    textColor: "text-blue-500",
+    logo: <SiCss3 color='#3b82f6' />
+}, {
+    id: 8,
+    name: 'nextjs',
+    display: "Next JS",
+    textColor: "text-white",
+    logo: <SiNextcloud color='#fff' />
 }]
 
 const Tags = ({ skills }) => {
     const tags = skills.map((skill) => variants.find((variant) => variant.name === skill))
 
     return (
-        <div className='bg-purple-600 flex items-center gap-1 ml-auto'>
+        <div className='flex items-center gap-1 ml-auto'>
             {
                 tags.map(({ display, logo, textColor }) => {
                     return (
-                        <div className={'bg-zinc-900 py-1 px-2 rounded flex gap-2 items-center border-2 border-slate-400 mr-2'}>
+                        <span class="bg-gray-100 text-gray-800 gap-2 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
                             {logo}
-                            <div className={textColor + ' '}>{display}</div>
-                        </div>
+                            <div className={textColor}>{display}</div>
+                        </span>
                     )
                 })
             }
-        </div>
+        </div >
     )
 }
 

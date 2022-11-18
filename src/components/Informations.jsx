@@ -15,16 +15,14 @@ const Informations = () => {
   return (
     <div>
       <Title title="INFORMATIONS" />
-      <table className="mt-2">
-        <tbody>
-          <InformationElement icon={<FaBirthdayCake />} element={birthDate} />
-          <InformationElement icon={<RiMapPin2Fill />} element={address} />
-          <InformationElement icon={<BsFillTelephoneFill />} element={phone} />
-          <InformationElement icon={<SiMaildotru />} element={mail} />
-          <InformationElement icon={<AiFillCar />} element={car} />
-          <InformationElement icon={<FaLanguage />} element={language} />
-        </tbody>
-      </table>
+      <div class="text-gray-900 rounded-lg border border-gray-200  dark:border-gray-600 dark:text-white">
+        <InformationElement icon={<FaBirthdayCake />} element={birthDate} />
+        <InformationElement icon={<RiMapPin2Fill />} element={address} />
+        <InformationElement icon={<BsFillTelephoneFill />} element={phone} />
+        <InformationElement icon={<SiMaildotru />} element={mail} />
+        <InformationElement icon={<AiFillCar />} element={car} />
+        <InformationElement icon={<FaLanguage />} element={language} />
+      </div>
     </div>
   );
 };

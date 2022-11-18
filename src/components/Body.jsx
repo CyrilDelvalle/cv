@@ -5,13 +5,13 @@ import Skills from "./Skills";
 
 const Body = () => {
   return (
-    <div className="flex">
-      <div className="bg-blue-400 w-3/4">
-        <ProfessionalExpericences />
-      </div>
-      <div className="bg-emerald-500 w-1/4 flex flex-col gap-2">
+    <div className="flex gap-8">
+      <div className="w-1/4 flex flex-col gap-2">
         <Informations />
         <Skills />
+      </div>
+      <div className="w-3/4">
+        <ProfessionalExpericences />
       </div>
     </div>
   );
