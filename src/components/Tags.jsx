@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiNextdotjs, SiCss3, SiNextcloud } from "react-icons/si"
+import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiNextdotjs, SiCss3, SiStyledcomponents } from "react-icons/si"
 
 const variants = [{
     id: 1,
@@ -35,21 +35,27 @@ const variants = [{
     id: 6,
     name: 'csharp',
     display: "C#",
-    textColor: "text-purple-700",
-    logo: <SiCsharp color='#7e22ce' />
+    textColor: "text-purple-500",
+    logo: <SiCsharp color='#a855f7' />
 }, {
     id: 7,
     name: 'css',
     display: "CSS",
     textColor: "text-blue-500",
     logo: <SiCss3 color='#3b82f6' />
-},]
+}, {
+    id: 8,
+    name: 'styledComponent',
+    display: 'Styled component',
+    textColor: 'text-pink-500',
+    logo: <SiStyledcomponents color='#ec4899' />
+}]
 
 const Tags = ({ skills }) => {
     const tags = skills.map((skill) => variants.find((variant) => variant.name === skill))
 
     return (
-        <div className='flex flex-wrap justify-end  h-auto gap-1 ml-auto w-2/6'>
+        <div className='flex flex-wrap justify-end h-auto gap-1 ml-auto w-2/6'>
             {
                 tags.map(({ display, logo, textColor }, index) => {
                     return (

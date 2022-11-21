@@ -4,7 +4,7 @@ import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiCss3, SiT
 const Skills = () => {
     return (
         <div>
-            <h3 className="text-2xl py-2 text-center font-bold dark:text-white">COMPETENCES TECHNIQUES</h3>
+            <h3 className="text-xl mb-4 text-center font-bold dark:text-white">COMPETENCES TECHNIQUES</h3>
             <table className="ml-2 mt-2 w-full">
                 <tbody className='w-full'>
                     <tr>
@@ -13,8 +13,8 @@ const Skills = () => {
                             JS
                         </td>
                         <td className='w-40'>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "80%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "80%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -25,8 +25,8 @@ const Skills = () => {
                             TS
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "60%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "60%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -37,8 +37,8 @@ const Skills = () => {
                             React
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "80%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "80%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -49,8 +49,8 @@ const Skills = () => {
                             Next JS
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "65%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "65%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -61,8 +61,8 @@ const Skills = () => {
                             CSS
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "60%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "60%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -73,8 +73,8 @@ const Skills = () => {
                             Tailwind
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "60%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "60%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -85,8 +85,8 @@ const Skills = () => {
                             NodeJS
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "50%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "50%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}
@@ -97,8 +97,8 @@ const Skills = () => {
                             C#
                         </td>
                         <td>
-                            <div className="my-2 h-5 bg-gray-200 rounded dark:bg-gray-700 mr-2">
-                                <div className="h-5 bg-emerald-500 rounded" style={{ width: "50%" }}></div>
+                            <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+                                <div className="h-4 bg-emerald-500 rounded" style={{ width: "50%" }}></div>
                             </div>
                         </td>
                         {/* <span className="text-sm font-medium text-blue-600 dark:text-white">70%</span> */}

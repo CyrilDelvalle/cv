@@ -13,8 +13,8 @@ const { birthDate, phone, address, mail, car, language } = infos;
 const Informations = () => {
   return (
     <div>
-      <h3 className="py-4 text-2xl text-center font-bold dark:text-white">INFORMATIONS</h3>
-      <div className="mb-4 mx-2 text-gray-900 rounded-lg border border-gray-200  dark:border-gray-600 dark:text-white">
+      <h3 className="text-xl mb-4 text-center font-bold dark:text-white">INFORMATIONS</h3>
+      <div className="mx-2 text-gray-900 rounded-lg border border-gray-200  dark:border-gray-600 dark:text-white">
         <InformationElement icon={<FaBirthdayCake />} element={birthDate} />
         <InformationElement icon={<RiMapPin2Fill />} element={address} />
         <InformationElement icon={<BsFillTelephoneFill />} element={phone} />

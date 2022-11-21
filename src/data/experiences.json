@@ -11,7 +11,8 @@
             "javascript",
             "typescript",
             "css",
-            "nextjs"
+            "nextjs",
+            "styledComponent"
         ],
         "tasks": [
             "Développement de composants graphiques sur un storybook. Développement Front-end sur la plateforme Disneyland Paris. Refactorisation et optimisation de code. Déploiement et travail sur NextJS."

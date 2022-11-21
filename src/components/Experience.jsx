@@ -6,6 +6,7 @@ import { SlEnergy } from 'react-icons/sl'
 import { BiInfinite } from "react-icons/bi"
 import { HiShoppingCart } from "react-icons/hi"
 
+
 const Experience = ({ id, startDate, endDate, society, jobTitle, tasks, skills, duration }) => {
     const logoSociety = [{
         id: "disneyland",

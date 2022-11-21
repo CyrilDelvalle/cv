@@ -1,0 +1,17 @@
+[
+    {
+        "name": "CV",
+        "description": "Création de mon CV ",
+        "technos": "React, Tailwind"
+    },
+    {
+        "name": "Pokédex",
+        "description": "Création du pokédex. ",
+        "technos": "React, NextJS,  Typescript"
+    },
+    {
+        "name": "TranspoDev",
+        "description": "Création d'une application d'affichage des horaires du RER/Métro",
+        "technos": "React Native, Javascript"
+    }
+]

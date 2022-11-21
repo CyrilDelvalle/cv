@@ -3,19 +3,27 @@ import ProfessionalExpericences from "./ProfessionalExpericences";
 import Informations from "./Informations";
 import Skills from "./Skills";
 import Diplomas from "./Diplomas";
+import Books from "./Books";
+import PersonnalProjects from "./PersonnalProjects";
+import Separator from "./Separator";
 
 const Body = () => {
   return (
     <div className="flex gap-8 ">
-      <div className="w-1/4 flex flex-col gap-2 items-center px-2">
+      <div className="w-1/4 pt-8 flex flex-col items-center px-2">
         <Informations />
-        <div className="h-px w-3/4 bg-white " />
+        <Separator />
         <Skills />
+        <Separator />
+        <Books />
+        <Separator />
+        <PersonnalProjects />
       </div>
 
       <div className="w-3/4">
         <ProfessionalExpericences />
         <Diplomas />
+
       </div>
     </div>
   );
