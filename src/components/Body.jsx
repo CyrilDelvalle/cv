@@ -7,12 +7,15 @@ import Books from "./Books";
 import PersonnalProjects from "./PersonnalProjects";
 import Separator from "./Separator";
 import Hobbies from "./Hobbies";
+import Contact from "./Contact";
 
 const Body = () => {
   return (
     <div className="flex gap-8 ">
       <div className="w-1/4 pt-8 flex flex-col items-center px-2">
         <Informations />
+        <Separator />
+        <Contact />
         <Separator />
         <Skills />
         <Separator />

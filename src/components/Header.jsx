@@ -19,7 +19,7 @@ const Header = () => {
         />
 
       </div>
-      <div className="bg-emerald-500 absolute" style={{
+      <div className="bg-amber-500 absolute" style={{
         top: 237,
         left: 471,
         transform: 'rotate(142deg)',
@@ -30,7 +30,7 @@ const Header = () => {
         <h1 className="inline-flex mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           {firstName}
           <div className="w-4"></div>
-          <mark className="px-2 text-white bg-emerald-500 rounded dark:bg-emerald-500">
+          <mark className="px-2 text-white bg-emerald-500 rounded dark:bg-amber-500">
             {lastName}
           </mark>
         </h1>

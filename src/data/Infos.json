@@ -1,15 +1,12 @@
 {
     "lastName": "Delvalle",
     "firstName": "Cyril",
-    "age": 28,
-    "phone": "06 88 91 17 05",
-    "mail": "delvalle.cyril77@gmail.com",
     "car": "Permis B véhiculé",
     "language": [
         "Français langue maternelle",
         "Anglais niveau professionnel"
     ],
-    "birthDate": "27 février 1994",
+    "birthDate": "27 février 1994 (28 ans)",
     "address": "1 Allée des ormes, 77200 Torcy",
     "objectives": "Développeur Full Stack, ReactJS NodeJS",
     "motivation": "Passionné par le développement web, je suis à la recherche d'un poste me permettant d'améliorer mes compétences techniques. D'un naturel à travailler en équipe, je justifie de plusieurs années de travail en start-up & grands comptes."

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiNextdotjs, SiCss3, SiStyledcomponents } from "react-icons/si"
+import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiNextdotjs, SiCss3, SiStyledcomponents, SiElectron } from "react-icons/si"
 import { GiAtomicSlashes } from 'react-icons/gi'
 
 const variants = [{
@@ -56,6 +56,12 @@ const variants = [{
     display: 'Atomic design',
     textColor: 'text-orange-500',
     logo: <GiAtomicSlashes color='#f97316   ' />
+}, {
+    id: 10,
+    name: 'electron',
+    display: 'Electron',
+    textColor: 'text-blue-400s',
+    logo: <SiElectron color='#60a5fa   ' />
 }]
 
 const Tags = ({ skills }) => {
