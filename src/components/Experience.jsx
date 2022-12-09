@@ -10,34 +10,34 @@ import { HiShoppingCart } from "react-icons/hi"
 const Experience = ({ id, startDate, endDate, society, jobTitle, tasks, skills, duration }) => {
     const logoSociety = [{
         id: "disneyland",
-        logo: <GiCastle color='#fff' />
+        logo: <GiCastle />
     },
     {
         id: "hyperspread",
-        logo: <FaStoreAlt color='#fff' />
+        logo: <FaStoreAlt />
     },
     {
         id: "actronika",
-        logo: <FaFingerprint color='#fff' />
+        logo: <FaFingerprint />
     },
     {
         id: "csn",
-        logo: <SlEnergy color='#fff' />
+        logo: <SlEnergy />
     },
     {
         id: "phenix",
-        logo: <BiInfinite color='#fff' />
+        logo: <BiInfinite />
     },
     {
         id: "veepee",
-        logo: <HiShoppingCart color='#fff' />
+        logo: <HiShoppingCart />
     }];
 
     const durationDisplayed = duration !== "" ? startDate + " - " + endDate + ' (' + duration + ')' : startDate
 
     return (
         <li className="mb-10 ml-6">
-            <span className="flex absolute -left-4 justify-center items-center w-8 h-8 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-gray-500">
+            <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-blue-800 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-gray-500">
                 {logoSociety.find((logoSociety) => logoSociety.id === id).logo}
             </span>
             <div className='flex'>

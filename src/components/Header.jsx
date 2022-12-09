@@ -30,12 +30,12 @@ const Header = () => {
         <h1 className="inline-flex mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           {firstName}
           <div className="w-4"></div>
-          <mark className="px-2 text-white bg-emerald-500 rounded dark:bg-amber-500">
+          <mark className="px-2 text-gray-900 dark:text-white bg-emerald-500 rounded dark:bg-amber-500">
             {lastName}
           </mark>
         </h1>
-        <p className="mb-4 text-lg italic font-normal text-gray-500 lg:text-xl dark:text-gray-200">{objectives}</p>
-        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">{motivation}</p>
+        <p className="mb-4 text-lg italic font-normal text-gray-800 lg:text-xl dark:text-gray-200">{objectives}</p>
+        <p className="text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-400">{motivation}</p>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Informations = () => {
   return (
     <div>
       <h3 className="text-xl mb-4 text-center font-bold dark:text-white">INFORMATIONS</h3>
-      <div className="mx-2 text-gray-900 rounded-lg border border-gray-200  dark:border-gray-600 dark:text-white">
+      <div className="mx-2 text-gray-900 rounded-lg border border-gray-900  dark:border-gray-600 dark:text-white">
         <InformationElement icon={<FaBirthdayCake />} element={birthDate} />
         <InformationElement icon={<RiMapPin2Fill />} element={address} />
         <InformationElement icon={<AiFillCar />} element={car} />

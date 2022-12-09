@@ -4,12 +4,12 @@ import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiCss3, SiT
 const Skills = () => {
     return (
         <div>
-            <h3 className="text-xl mb-4 text-center font-bold dark:text-white">COMPETENCES TECHNIQUES</h3>
+            <h3 className="text-xl mb-4 text-center font-bold text-gray-900 dark:text-white">COMPETENCES TECHNIQUES</h3>
             <table className="ml-2 mt-2 w-full">
                 <tbody className='w-full'>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiJavascript size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-gray-900 text-sm font-medium text-black dark:text-white">
+                            <SiJavascript size={20} />
                             JS
                         </td>
                         <td className='w-40'>
@@ -19,8 +19,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiTypescript size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiTypescript size={20} />
                             TS
                         </td>
                         <td>
@@ -30,8 +30,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiReact size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiReact size={20} />
                             React
                         </td>
                         <td>
@@ -41,8 +41,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiNextdotjs size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiNextdotjs size={20} />
                             Next JS
                         </td>
                         <td>
@@ -52,8 +52,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiCss3 size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiCss3 size={20} />
                             CSS
                         </td>
                         <td>
@@ -63,8 +63,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiTailwindcss size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiTailwindcss size={20} />
                             Tailwind
                         </td>
                         <td>
@@ -74,8 +74,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiNodedotjs size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiNodedotjs size={20} />
                             NodeJS
                         </td>
                         <td>
@@ -85,8 +85,8 @@ const Skills = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-blue-600 dark:text-white">
-                            <SiCsharp size={20} color='#fff' />
+                        <td className="pt-2 inline-flex gap-2 text-sm font-medium text-black dark:text-white">
+                            <SiCsharp size={20} />
                             C#
                         </td>
                         <td>

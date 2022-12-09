@@ -72,7 +72,7 @@ const Tags = ({ skills }) => {
             {
                 tags.map(({ display, logo, textColor }, index) => {
                     return (
-                        <span key={'Tags-' + index} className="h-7 bg-gray-100 text-gray-800 gap-2 text-s font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                        <span key={'Tags-' + index} className="h-7  border border-black dark:bg-gray-700 text-gray-800 gap-2 text-s font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:text-gray-300">
                             {logo}
                             <div className={textColor}>{display}</div>
                         </span>
