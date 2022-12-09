@@ -14,7 +14,7 @@ const Header = () => {
       >
         <img
           className="w-full h-full"
-          src={require("../assets/profil-cartoon.jpg")}
+          src={require("../assets/profil.jpg")}
           alt="profile"
         />
 

@@ -4,7 +4,7 @@ import { MdSchool } from 'react-icons/md'
 const Diploma = ({ name, speciality, startDate, endDate }) => {
     return (
         <li className="mb-8 ml-6">
-            <span className="flex absolute -left-4 justify-center items-center w-8 h-8 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-emerald-500">
+            <span className="flex absolute -left-4 justify-center items-center w-8 h-8 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-gray-500">
                 <MdSchool color='#fff' />
             </span>
             <div className='flex'>
@@ -18,7 +18,6 @@ const Diploma = ({ name, speciality, startDate, endDate }) => {
                         {startDate + " - " + endDate}
                     </time>
                 </div>
-                {/* <Tags skills={skills} /> */}
             </div>
         </li >
     )

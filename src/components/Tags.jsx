@@ -1,5 +1,6 @@
 import React from 'react'
 import { SiJavascript, SiTypescript, SiCsharp, SiReact, SiNodedotjs, SiNextdotjs, SiCss3, SiStyledcomponents } from "react-icons/si"
+import { GiAtomicSlashes } from 'react-icons/gi'
 
 const variants = [{
     id: 1,
@@ -49,17 +50,23 @@ const variants = [{
     display: 'Styled component',
     textColor: 'text-pink-500',
     logo: <SiStyledcomponents color='#ec4899' />
+}, {
+    id: 9,
+    name: 'atomicDesign',
+    display: 'Atomic design',
+    textColor: 'text-orange-500',
+    logo: <GiAtomicSlashes color='#f97316   ' />
 }]
 
 const Tags = ({ skills }) => {
     const tags = skills.map((skill) => variants.find((variant) => variant.name === skill))
 
     return (
-        <div className='flex flex-wrap justify-end h-auto gap-1 ml-auto w-2/6'>
+        <div className='flex flex-wrap justify-end h-auto gap-1 ml-auto w-3/6'>
             {
                 tags.map(({ display, logo, textColor }, index) => {
                     return (
-                        <span key={'Tags-' + index} className="h-5 bg-gray-100 text-gray-800 gap-2 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                        <span key={'Tags-' + index} className="h-7 bg-gray-100 text-gray-800 gap-2 text-s font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
                             {logo}
                             <div className={textColor}>{display}</div>
                         </span>

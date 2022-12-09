@@ -1,12 +1,12 @@
 [
     {
         "name": "CV",
-        "description": "Création de mon CV ",
+        "description": "Création de mon CV",
         "technos": "React, Tailwind"
     },
     {
         "name": "Pokédex",
-        "description": "Création du pokédex. ",
+        "description": "Création du pokédex",
         "technos": "React, NextJS,  Typescript"
     },
     {

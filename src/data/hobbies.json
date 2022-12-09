@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Sport",
+        "elements": "fitness, roller"
+    },
+    {
+        "name": "Littérature",
+        "elements": "HP Lovecraft, Stephen King"
+    },
+    {
+        "name": "Voyage",
+        "elements": "Japon, USA, Angleterre, Belgique, Italie, Espagne, Grèce, Allemagne"
+    }
+]

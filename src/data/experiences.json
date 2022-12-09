@@ -9,13 +9,14 @@
         "skills": [
             "react",
             "javascript",
-            "typescript",
             "css",
             "nextjs",
-            "styledComponent"
+            "styledComponent",
+            "atomicDesign"
         ],
         "tasks": [
-            "Développement de composants graphiques sur un storybook. Développement Front-end sur la plateforme Disneyland Paris. Refactorisation et optimisation de code. Déploiement et travail sur NextJS."
+            "Développement de composants graphiques sur un storybook.",
+            "Développement Front-end sur la plateforme Disneyland Paris & déploiement du travail avec NextJS."
         ]
     },
     {
@@ -34,7 +35,8 @@
         ],
         "tasks": [
             "Développement d’une application Saas web React/Nextjs.",
-            "Développement back-end NodeJS. Review de code PR et peer programming."
+            "Développement back-end NodeJS. ",
+            "Review de code PR et peer programming."
         ]
     },
     {
@@ -50,8 +52,9 @@
             "typescript"
         ],
         "tasks": [
-            "Création d'une application multi-plateforme de gestion d’effets haptiques avec Electron/ReactJS/TypeScript. Conception de la partie Front avec HTML/CSS.",
-            "Création de tests unitaires avec Jest. Gestion des interactions client/serveur avec Socket.io. Rédaction du manuel utilisateur."
+            "Création d'une application multi-plateforme de gestion d’effets haptiques avec Electron/ReactJS/TypeScript.",
+            "Création de tests unitaires avec Jest.",
+            "Gestion des interactions client/serveur avec Socket.io."
         ]
     },
     {
@@ -66,7 +69,8 @@
             "javascript"
         ],
         "tasks": [
-            "Création d'une plateforme web de gestion d’énergie. Participation à la conception et l’architecture d'une application.",
+            "Création d'une plateforme web de gestion d’énergie.",
+            "Participation à la conception et l’architecture d'une application.",
             "Application pratique des livres Clean Code & Clean Architecture."
         ]
     },
@@ -76,7 +80,7 @@
         "endDate": "Déc 2018",
         "duration": "1 an",
         "society": "Phénix seconde vie des produits",
-        "jobTitle": "Développeur Full-Stack .NET",
+        "jobTitle": "Développeur .NET",
         "skills": [
             "csharp",
             "javascript"
@@ -97,7 +101,8 @@
             "csharp"
         ],
         "tasks": [
-            "Création d’une application client lourd en C# WPF et création de procédures stockées SQL. Correction de bug et gestion de ticket utilisateur. Gestion de guichet support transport."
+            "Création d’une application client lourd en C# WPF et création de procédures stockées SQL.",
+            "Correction de bug et gestion de ticket utilisateur."
         ]
     }
 ]

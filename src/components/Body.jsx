@@ -6,6 +6,7 @@ import Diplomas from "./Diplomas";
 import Books from "./Books";
 import PersonnalProjects from "./PersonnalProjects";
 import Separator from "./Separator";
+import Hobbies from "./Hobbies";
 
 const Body = () => {
   return (
@@ -18,12 +19,13 @@ const Body = () => {
         <Books />
         <Separator />
         <PersonnalProjects />
+        <Separator />
+        <Hobbies />
       </div>
 
       <div className="w-3/4">
         <ProfessionalExpericences />
         <Diplomas />
-
       </div>
     </div>
   );
