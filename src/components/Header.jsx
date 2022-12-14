@@ -17,15 +17,17 @@ const Header = () => {
           src={require("../assets/profil.jpg")}
           alt="profile"
         />
-
       </div>
-      <div className="bg-amber-500 absolute" style={{
-        top: 237,
-        left: 471,
-        transform: 'rotate(142deg)',
-        height: 8,
-        width: 200,
-      }} />
+      <div
+        className="bg-amber-500 absolute"
+        style={{
+          top: 237,
+          left: 407,
+          transform: "rotate(142deg)",
+          height: 8,
+          width: 200,
+        }}
+      />
       <div className="w-full py-8 flex flex-col justify-between ">
         <h1 className="inline-flex mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           {firstName}
@@ -34,8 +36,12 @@ const Header = () => {
             {lastName}
           </mark>
         </h1>
-        <p className="mb-4 text-lg italic font-normal text-gray-800 lg:text-xl dark:text-gray-200">{objectives}</p>
-        <p className="text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-400">{motivation}</p>
+        <p className="mb-4 text-lg italic font-normal text-gray-800 lg:text-xl dark:text-gray-200">
+          {objectives}
+        </p>
+        <p className="text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-400">
+          {motivation}
+        </p>
       </div>
     </div>
   );

@@ -44,7 +44,7 @@
         "startDate": "Nov 2020",
         "endDate": "Mai 2021",
         "duration": "7 mois",
-        "society": "Actronika SAS",
+        "society": "Actronika",
         "jobTitle": "Développeur Full-Stack JavaScript",
         "skills": [
             "react",
@@ -80,8 +80,8 @@
         "startDate": "Janv 2018",
         "endDate": "Déc 2018",
         "duration": "1 an",
-        "society": "Phénix seconde vie des produits",
-        "jobTitle": "Développeur .NET",
+        "society": "Phénix",
+        "jobTitle": "Développeur Full-Stack .NET",
         "skills": [
             "csharp",
             "javascript"
