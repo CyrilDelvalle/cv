@@ -1,6 +1,6 @@
 import React from "react";
 import Tags from "./Tags";
-import { GiCastle } from "react-icons/gi";
+import { GiMagicLamp } from "react-icons/gi";
 import { FaStoreAlt, FaFingerprint } from "react-icons/fa";
 import { SlEnergy } from "react-icons/sl";
 import { BiInfinite } from "react-icons/bi";
@@ -19,7 +19,7 @@ const Experience = ({
   const logoSociety = [
     {
       id: "disneyland",
-      logo: <GiCastle />,
+      logo: <GiMagicLamp />,
     },
     {
       id: "hyperspread",

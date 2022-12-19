@@ -22,7 +22,7 @@ const Header = () => {
         className="bg-amber-500 absolute"
         style={{
           top: 237,
-          left: 407,
+          left: 468,
           transform: "rotate(142deg)",
           height: 8,
           width: 200,
