@@ -10,9 +10,9 @@ const Contact = () => {
         <div>
             <h3 className="text-xl mb-4 text-center font-bold dark:text-white">CONTACTS</h3>
             <div className="mx-2 text-gray-900 rounded-lg border border-gray-800 dark:border-gray-600 dark:text-white">
-                <InformationElement icon={<BsFillTelephoneFill />} element={phone} />
-                <InformationElement icon={<SiMaildotru />} element={mail} />
-                <InformationElement icon={<BsLinkedin />} element={linkedin} />
+                <InformationElement icon={<BsFillTelephoneFill size="1.3em" />} element={phone} />
+                <InformationElement icon={<SiMaildotru size="1.3em" />} element={mail} />
+                <InformationElement icon={<BsLinkedin size="1.3em" />} element={linkedin} />
             </div>
         </div>
     )

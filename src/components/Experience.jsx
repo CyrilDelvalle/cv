@@ -1,9 +1,8 @@
 import React from "react";
 import Tags from "./Tags";
-import { GiMagicLamp } from "react-icons/gi";
-import { FaStoreAlt, FaFingerprint } from "react-icons/fa";
-import { SlEnergy } from "react-icons/sl";
-import { BiInfinite } from "react-icons/bi";
+
+import { FaStoreAlt, FaFingerprint, FaMagic } from "react-icons/fa";
+import { BsFillTrashFill, BsFillLightningChargeFill } from "react-icons/bs";
 import { HiShoppingCart } from "react-icons/hi";
 
 const Experience = ({
@@ -19,27 +18,27 @@ const Experience = ({
   const logoSociety = [
     {
       id: "disneyland",
-      logo: <GiMagicLamp />,
+      logo: <FaMagic size="1.1em" />,
     },
     {
       id: "hyperspread",
-      logo: <FaStoreAlt />,
+      logo: <FaStoreAlt size="1.1em" />,
     },
     {
       id: "actronika",
-      logo: <FaFingerprint />,
+      logo: <FaFingerprint size="1.1em" />,
     },
     {
       id: "csn",
-      logo: <SlEnergy />,
+      logo: <BsFillLightningChargeFill size="1.1em" />,
     },
     {
       id: "phenix",
-      logo: <BiInfinite />,
+      logo: <BsFillTrashFill size="1.1em" />,
     },
     {
       id: "veepee",
-      logo: <HiShoppingCart />,
+      logo: <HiShoppingCart size="1.1em" />,
     },
   ];
 
@@ -50,7 +49,7 @@ const Experience = ({
 
   return (
     <li className="mb-10 ml-6">
-      <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-blue-800 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-gray-500">
+      <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-blue-800 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-amber-500">
         {logoSociety.find((logoSociety) => logoSociety.id === id).logo}
       </span>
       <div className="flex">
@@ -73,7 +72,7 @@ const Experience = ({
       {tasks.map((task, index) => (
         <p
           key={"task-" + index}
-          className="mb-1 text-base font-normal text-gray-500 dark:text-gray-400"
+          className="mb-1 text-base font-normal text-gray-500 dark:text-gray-300"
         >
           {task}
         </p>

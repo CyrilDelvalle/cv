@@ -36,10 +36,10 @@ const Header = () => {
             {lastName}
           </mark>
         </h1>
-        <p className="mb-4 text-lg italic font-normal text-gray-800 lg:text-xl dark:text-gray-200">
+        <p className="mb-4 text-lg italic font-normal lg:text-2xl text-gray-800  dark:text-gray-100">
           {objectives}
         </p>
-        <p className="text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-400">
+        <p className="text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-200">
           {motivation}
         </p>
       </div>

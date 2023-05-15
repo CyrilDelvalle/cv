@@ -2,21 +2,22 @@
     {
         "id": "disneyland",
         "startDate": "Janv 2022",
-        "endDate": "",
-        "duration": "",
+        "endDate": "Avril 2023",
+        "duration": "1 an et 3 mois",
         "society": "Disneyland Paris",
         "jobTitle": "Développeur Front-End React",
         "skills": [
             "react",
             "javascript",
+            "typescript",
             "css",
             "nextjs",
-            "styledComponent",
-            "atomicDesign"
+            "styledComponent"
         ],
         "tasks": [
             "Développement de composants graphiques sur un storybook.",
-            "Développement Front-end sur la plateforme Disneyland Paris & déploiement du travail avec NextJS."
+            "Développement Front-end sur la plateforme Disneyland Paris.",
+            "Refactorisation de code legacy et migration vers NextJS 13."
         ]
     },
     {

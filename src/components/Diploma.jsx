@@ -4,8 +4,8 @@ import { MdSchool } from 'react-icons/md'
 const Diploma = ({ name, speciality, startDate, endDate, localisation }) => {
     return (
         <li className="mb-8 ml-6">
-            <span className="flex absolute -left-4 justify-center items-center w-8 h-8 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-gray-500">
-                <MdSchool color='#fff' />
+            <span className="flex absolute -left-4 justify-center items-center w-8 h-8 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-amber-500">
+                <MdSchool color='#fff' size="1.1em" />
             </span>
             <div className='flex'>
                 <div className='w-full'>

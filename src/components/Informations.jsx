@@ -6,7 +6,7 @@ import { AiFillCar } from "react-icons/ai";
 import { FaLanguage } from "react-icons/fa";
 import InformationElement from "./InformationElement";
 
-const { birthDate, address, car, language } = infos;
+const { birthDate, address, car, languages } = infos;
 
 const Informations = () => {
   return (
@@ -15,10 +15,10 @@ const Informations = () => {
         INFORMATIONS
       </h3>
       <div className="mx-2 text-gray-900 rounded-lg border border-gray-900  dark:border-gray-600 dark:text-white">
-        <InformationElement icon={<FaBirthdayCake />} element={birthDate} />
-        <InformationElement icon={<RiMapPin2Fill />} element={address} />
-        <InformationElement icon={<AiFillCar />} element={car} />
-        <InformationElement icon={<FaLanguage />} element={language} />
+        <InformationElement icon={<FaBirthdayCake size="1.3em" />} element={birthDate} />
+        <InformationElement icon={<RiMapPin2Fill size="1.3em" />} element={address} />
+        <InformationElement icon={<AiFillCar size="1.3em" />} element={car} />
+        <InformationElement icon={<FaLanguage size="1.3em" />} element={languages} />
       </div>
     </div>
   );
