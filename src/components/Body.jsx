@@ -8,6 +8,7 @@ import PersonnalProjects from "./PersonnalProjects";
 import Separator from "./Separator";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
+import Certifications from './Certifications';
 
 const Body = () => {
   return (
@@ -18,6 +19,8 @@ const Body = () => {
         <Contact />
         <Separator />
         <Skills />
+        <Separator />
+        <Certifications />
         <Separator />
         <Books />
         <Separator />

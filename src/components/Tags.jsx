@@ -9,6 +9,7 @@ import {
   SiCss3,
   SiStyledcomponents,
   SiElectron,
+  SiFastify,
 } from "react-icons/si";
 import { GiAtomicSlashes } from "react-icons/gi";
 
@@ -81,7 +82,14 @@ const variants = [
     name: "electron",
     display: "Electron",
     textColor: "text-blue-400s",
-    logo: <SiElectron color="#60a5fa   " />,
+    logo: <SiElectron color="#60a5fa" />,
+  },
+  {
+    id: 11,
+    name: "fastify",
+    display: "Fastify",
+    textColor: "text-white-400s",
+    logo: <SiFastify color="#fff" />,
   },
 ];
 

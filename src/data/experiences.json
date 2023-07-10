@@ -1,5 +1,26 @@
 [
     {
+        "id": "acensi",
+        "startDate": "Avril 2023",
+        "endDate": "Juillet 2023",
+        "duration": "3 mois",
+        "society": "Acensi",
+        "jobTitle": "Développeur Full-Stack JS",
+        "skills": [
+            "react",
+            "javascript",
+            "typescript",
+            "css",
+            "nodejs",
+            "fastify"
+        ],
+        "tasks": [
+            "Développement d'une application multi tenant de gestion de licenses.",
+            "Développement Front-end sur la partie app web.",
+            "Développement back-end NodeJS avec Fastify."
+        ]
+    },
+    {
         "id": "disneyland",
         "startDate": "Janv 2022",
         "endDate": "Avril 2023",
