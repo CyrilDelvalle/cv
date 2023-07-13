@@ -15,10 +15,19 @@ const Informations = () => {
         INFORMATIONS
       </h3>
       <div className="mx-2 text-gray-900 rounded-lg border border-gray-900  dark:border-gray-600 dark:text-white">
-        <InformationElement icon={<FaBirthdayCake size="1.3em" />} element={birthDate} />
-        <InformationElement icon={<RiMapPin2Fill size="1.3em" />} element={address} />
+        <InformationElement
+          icon={<FaBirthdayCake size="1.3em" />}
+          element={birthDate}
+        />
+        <InformationElement
+          icon={<RiMapPin2Fill size="1.3em" />}
+          element={address}
+        />
         <InformationElement icon={<AiFillCar size="1.3em" />} element={car} />
-        <InformationElement icon={<FaLanguage size="1.3em" />} element={languages} />
+        <InformationElement
+          icon={<FaLanguage size="1.3em" />}
+          element={languages}
+        />
       </div>
     </div>
   );

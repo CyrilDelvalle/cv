@@ -95,7 +95,7 @@ const variants = [
 
 const Tags = ({ skills }) => {
   const tags = skills.map((skill) =>
-    variants.find((variant) => variant.name === skill)
+    variants.find(({ name }) => name === skill)
   );
 
   return (

@@ -1,30 +1,30 @@
 [
-    {
-        "name": "Master 2",
-        "speciality": "Architecte logiciel",
-        "startDate": "Nov 2018",
-        "endDate": "Oct 2020",
-        "localisation": "NextAdvance, Paris 75009"
-    },
-    {
-        "name": "License professionelle",
-        "speciality": "Concepteur, développeur informatique",
-        "startDate": "Déc 2018",
-        "endDate": "Nov 2018",
-        "localisation": "NextAdvance, Paris 75009"
-    },
-    {
-        "name": "BTS IRIS",
-        "speciality": "Informatique et réseau pour l'industrie et les services",
-        "startDate": "Sep 2012",
-        "endDate": "Juin 2015",
-        "localisation": "Lycée Dorian, Paris 75011"
-    },
-    {
-        "name": "Baccalauréat Professionnel",
-        "speciality": "Systeme Electronique Numérique",
-        "startDate": "Sept 2009",
-        "endDate": "Juin 2012",
-        "localisation": "Lycée Pierre de Coubertin, Meaux 77100"
-    }
+  {
+    "name": "Master 2",
+    "speciality": "Architecte logiciel",
+    "startDate": "Nov 2018",
+    "endDate": "Oct 2020",
+    "localisation": "NextAdvance, Paris 75009"
+  },
+  {
+    "name": "License professionelle",
+    "speciality": "Concepteur, développeur informatique",
+    "startDate": "Déc 2018",
+    "endDate": "Nov 2018",
+    "localisation": "NextAdvance, Paris 75009"
+  },
+  {
+    "name": "BTS IRIS",
+    "speciality": "Informatique et réseau pour l'industrie et les services",
+    "startDate": "Sep 2012",
+    "endDate": "Juin 2015",
+    "localisation": "Lycée Dorian, Paris 75011"
+  },
+  {
+    "name": "Baccalauréat Professionnel",
+    "speciality": "Systeme Electronique Numérique",
+    "startDate": "Sept 2009",
+    "endDate": "Juin 2012",
+    "localisation": "Lycée Pierre de Coubertin, Meaux 77100"
+  }
 ]

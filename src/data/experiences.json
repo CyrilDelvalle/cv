@@ -1,131 +1,115 @@
 [
-    {
-        "id": "acensi",
-        "startDate": "Avril 2023",
-        "endDate": "Juillet 2023",
-        "duration": "3 mois",
-        "society": "Acensi",
-        "jobTitle": "Développeur Full-Stack JS",
-        "skills": [
-            "react",
-            "javascript",
-            "typescript",
-            "css",
-            "nodejs",
-            "fastify"
-        ],
-        "tasks": [
-            "Développement d'une application multi tenant de gestion de licenses.",
-            "Développement Front-end sur la partie app web.",
-            "Développement back-end NodeJS avec Fastify."
-        ]
-    },
-    {
-        "id": "disneyland",
-        "startDate": "Janv 2022",
-        "endDate": "Avril 2023",
-        "duration": "1 an et 3 mois",
-        "society": "Disneyland Paris",
-        "jobTitle": "Développeur Front-End React",
-        "skills": [
-            "react",
-            "javascript",
-            "typescript",
-            "css",
-            "nextjs",
-            "styledComponent"
-        ],
-        "tasks": [
-            "Développement de composants graphiques sur un storybook.",
-            "Développement Front-end sur la plateforme Disneyland Paris.",
-            "Refactorisation de code legacy et migration vers NextJS 13."
-        ]
-    },
-    {
-        "id": "hyperspread",
-        "startDate": "Juin 2021",
-        "endDate": "Déc 2021",
-        "duration": "7 mois",
-        "society": "Hyperspread",
-        "jobTitle": "Développeur Full-Stack JavaScript",
-        "skills": [
-            "react",
-            "nodejs",
-            "javascript",
-            "css",
-            "nextjs"
-        ],
-        "tasks": [
-            "Développement d’une application Saas web React/Nextjs.",
-            "Développement back-end NodeJS. ",
-            "Review de code PR et peer programming."
-        ]
-    },
-    {
-        "id": "actronika",
-        "startDate": "Nov 2020",
-        "endDate": "Mai 2021",
-        "duration": "7 mois",
-        "society": "Actronika",
-        "jobTitle": "Développeur Full-Stack JavaScript",
-        "skills": [
-            "react",
-            "javascript",
-            "typescript",
-            "electron"
-        ],
-        "tasks": [
-            "Création d'une application multi-plateforme de gestion d’effets haptiques.",
-            "Création de tests unitaires avec Jest.",
-            "Gestion des interactions client/serveur avec Socket.io."
-        ]
-    },
-    {
-        "id": "csn",
-        "startDate": "Janv 2019",
-        "endDate": "Oct 2020",
-        "society": "CSN Energy",
-        "duration": "1 an et 10 mois",
-        "jobTitle": "Développeur Full-Stack .NET",
-        "skills": [
-            "csharp",
-            "javascript"
-        ],
-        "tasks": [
-            "Création d'une plateforme web de gestion d’énergie.",
-            "Participation à la conception et l’architecture d'une application.",
-            "Application pratique des livres Clean Code & Clean Architecture."
-        ]
-    },
-    {
-        "id": "phenix",
-        "startDate": "Janv 2018",
-        "endDate": "Déc 2018",
-        "duration": "1 an",
-        "society": "Phénix",
-        "jobTitle": "Développeur Full-Stack .NET",
-        "skills": [
-            "csharp",
-            "javascript"
-        ],
-        "tasks": [
-            "Création d'une plateforme web de dons alimentaires & participation à la conception d'un projet web.",
-            "Création de scripts SQL et procédures stockées & rédaction du manuel utilisateur."
-        ]
-    },
-    {
-        "id": "veepee",
-        "startDate": "Déc 2015",
-        "endDate": "Déc 2017",
-        "duration": "2 ans",
-        "society": "Vente-privée.com",
-        "jobTitle": "Développeur Back-end C#",
-        "skills": [
-            "csharp"
-        ],
-        "tasks": [
-            "Création d’une application client lourd en C# WPF et création de procédures stockées SQL.",
-            "Correction de bug et gestion de tickets utilisateurs."
-        ]
-    }
+  {
+    "id": "francetv",
+    "startDate": "Juillet 2023",
+    "endDate": "aujourd'hui",
+    "duration": "2 mois",
+    "society": "FranceTV",
+    "jobTitle": "Développeur Front-End React Next",
+    "skills": ["react", "javascript", "typescript", "css", "nextjs"],
+    "tasks": []
+  },
+  {
+    "id": "acensi",
+    "startDate": "Avril 2023",
+    "endDate": "Juillet 2023",
+    "duration": "3 mois",
+    "society": "Acensi",
+    "jobTitle": "Développeur Full-Stack JS",
+    "skills": ["react", "javascript", "typescript", "css", "nodejs", "fastify"],
+    "tasks": [
+      "Développement d'une application multi tenant de gestion de licenses.",
+      "Développement Front-end sur la partie app web.",
+      "Développement back-end NodeJS avec Fastify."
+    ]
+  },
+  {
+    "id": "disneyland",
+    "startDate": "Janv 2022",
+    "endDate": "Avril 2023",
+    "duration": "1 an et 3 mois",
+    "society": "Disneyland Paris",
+    "jobTitle": "Développeur Front-End React",
+    "skills": [
+      "react",
+      "javascript",
+      "typescript",
+      "css",
+      "nextjs",
+      "styledComponent"
+    ],
+    "tasks": [
+      "Développement de composants graphiques sur un storybook.",
+      "Développement Front-end sur la plateforme Disneyland Paris.",
+      "Refactorisation de code legacy et migration vers NextJS 13."
+    ]
+  },
+  {
+    "id": "hyperspread",
+    "startDate": "Juin 2021",
+    "endDate": "Déc 2021",
+    "duration": "7 mois",
+    "society": "Hyperspread",
+    "jobTitle": "Développeur Full-Stack JavaScript",
+    "skills": ["react", "nodejs", "javascript", "css", "nextjs"],
+    "tasks": [
+      "Développement d’une application Saas web React/Nextjs.",
+      "Développement back-end NodeJS. ",
+      "Review de code PR et peer programming."
+    ]
+  },
+  {
+    "id": "actronika",
+    "startDate": "Nov 2020",
+    "endDate": "Mai 2021",
+    "duration": "7 mois",
+    "society": "Actronika",
+    "jobTitle": "Développeur Full-Stack JavaScript",
+    "skills": ["react", "javascript", "typescript", "electron"],
+    "tasks": [
+      "Création d'une application multi-plateforme de gestion d’effets haptiques.",
+      "Création de tests unitaires avec Jest.",
+      "Gestion des interactions client/serveur avec Socket.io."
+    ]
+  },
+  {
+    "id": "csn",
+    "startDate": "Janv 2019",
+    "endDate": "Oct 2020",
+    "society": "CSN Energy",
+    "duration": "1 an et 10 mois",
+    "jobTitle": "Développeur Full-Stack .NET",
+    "skills": ["csharp", "javascript"],
+    "tasks": [
+      "Création d'une plateforme web de gestion d’énergie.",
+      "Participation à la conception et l’architecture d'une application.",
+      "Application pratique des livres Clean Code & Clean Architecture."
+    ]
+  },
+  {
+    "id": "phenix",
+    "startDate": "Janv 2018",
+    "endDate": "Déc 2018",
+    "duration": "1 an",
+    "society": "Phénix",
+    "jobTitle": "Développeur Full-Stack .NET",
+    "skills": ["csharp", "javascript"],
+    "tasks": [
+      "Création d'une plateforme web de dons alimentaires & participation à la conception d'un projet web.",
+      "Création de scripts SQL et procédures stockées & rédaction du manuel utilisateur."
+    ]
+  },
+  {
+    "id": "veepee",
+    "startDate": "Déc 2015",
+    "endDate": "Déc 2017",
+    "duration": "2 ans",
+    "society": "Vente-privée.com",
+    "jobTitle": "Développeur Back-end C#",
+    "skills": ["csharp"],
+    "tasks": [
+      "Création d’une application client lourd en C# WPF et création de procédures stockées SQL.",
+      "Correction de bug et gestion de tickets utilisateurs."
+    ]
+  }
 ]

@@ -8,7 +8,7 @@ import PersonnalProjects from "./PersonnalProjects";
 import Separator from "./Separator";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
-import Certifications from './Certifications';
+import Certifications from "./Certifications";
 
 const Body = () => {
   return (
@@ -28,7 +28,6 @@ const Body = () => {
         <Separator />
         <Hobbies />
       </div>
-
       <div className="w-3/4">
         <ProfessionalExpericences />
         <Diplomas />

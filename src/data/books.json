@@ -1,10 +1,10 @@
 [
-    {
-        "name": "Clean code",
-        "writter": "Robert C. Martin"
-    },
-    {
-        "name": "Clean architecture",
-        "writter": "Robert C. Martin"
-    }
+  {
+    "name": "Clean code",
+    "writter": "Robert C. Martin"
+  },
+  {
+    "name": "Clean architecture",
+    "writter": "Robert C. Martin"
+  }
 ]
