@@ -7,6 +7,11 @@ module.exports = {
       sans: ["Roboto", "sans-serif"],
     },
   },
+  variants: {
+    extend: {
+      display: ["group-hover"],
+    },
+  },
   plugins: [],
-  darkMode: 'class',
+  darkMode: "class",
 };

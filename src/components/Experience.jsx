@@ -1,7 +1,13 @@
 import React from "react";
 import Tags from "./Tags";
 
-import { FaKey, FaStoreAlt, FaFingerprint, FaMagic } from "react-icons/fa";
+import {
+  FaKey,
+  FaStoreAlt,
+  FaFingerprint,
+  FaMagic,
+  FaTv,
+} from "react-icons/fa";
 import { BsFillTrashFill, BsFillLightningChargeFill } from "react-icons/bs";
 import { HiShoppingCart } from "react-icons/hi";
 
@@ -16,6 +22,10 @@ const Experience = ({
   duration,
 }) => {
   const logoSociety = [
+    {
+      id: "francetv",
+      logo: <FaTv size="1.1em" />,
+    },
     {
       id: "acensi",
       logo: <FaKey size="1.1em" />,
@@ -54,7 +64,7 @@ const Experience = ({
   return (
     <li className="mb-10 ml-6">
       <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-blue-800 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-amber-600">
-        {logoSociety.find(({ id }) => id === id).logo}
+        {logoSociety.find((logoSociety) => logoSociety.id === id).logo}
       </span>
       <div className="flex">
         <div className="w-3/6">

@@ -6,7 +6,7 @@
     "duration": "2 mois",
     "society": "FranceTV",
     "jobTitle": "Développeur Front-End React Next",
-    "skills": ["react", "javascript", "typescript", "css", "nextjs"],
+    "skills": ["react", "typescript", "css", "nextjs"],
     "tasks": []
   },
   {
@@ -65,7 +65,7 @@
     "duration": "7 mois",
     "society": "Actronika",
     "jobTitle": "Développeur Full-Stack JavaScript",
-    "skills": ["react", "javascript", "typescript", "electron"],
+    "skills": ["react", "javascript", "typescript"],
     "tasks": [
       "Création d'une application multi-plateforme de gestion d’effets haptiques.",
       "Création de tests unitaires avec Jest.",

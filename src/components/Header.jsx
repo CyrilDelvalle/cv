@@ -1,8 +1,35 @@
+import React, { useEffect } from "react";
 import infos from "../data/Infos.json";
 
 const { firstName, lastName, objectives, motivation } = infos;
 
 const Header = () => {
+  useEffect(() => {
+    const lightSwitches = document.getElementsByName("light-switch");
+    console.log(lightSwitches);
+    if (lightSwitches.length > 0) {
+      lightSwitches.forEach((lightSwitch, i) => {
+        if (localStorage.getItem("dark-mode") === "true") {
+          lightSwitch.checked = true;
+        }
+        lightSwitch.addEventListener("change", () => {
+          const { checked } = lightSwitch;
+          lightSwitches.forEach((el, n) => {
+            if (n !== i) {
+              el.checked = checked;
+            }
+          });
+          if (lightSwitch.checked) {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("dark-mode", true);
+          } else {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("dark-mode", false);
+          }
+        });
+      });
+    }
+  }, []);
   return (
     <div className="flex flex-row gap-8 w-full h-fit">
       <div
@@ -35,6 +62,13 @@ const Header = () => {
           <mark className="px-2 text-gray-900 dark:text-white bg-emerald-500 rounded dark:bg-amber-600">
             {lastName}
           </mark>
+          <div className="group w-8 h-8 self-baseline">
+            <input
+              type="checkbox"
+              name="light-switch"
+              className="light-switch hidden group-hover:block"
+            />
+          </div>
         </h1>
         <p className="mb-4 text-lg italic font-normal lg:text-2xl text-gray-800  dark:text-gray-100">
           {objectives}
