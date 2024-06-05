@@ -59,16 +59,10 @@ const Header = () => {
         <h1 className="inline-flex text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           {firstName}
           <div className="w-4"></div>
-          <mark className="px-2 text-gray-900 dark:text-white bg-amber-600 rounded">
+          <mark className="px-2 text-gray-900 dark:text-white bg-emerald-700 rounded">
             {lastName}
           </mark>
           <div className="group w-24 h-full self-baseline ml-auto">
-            {/* <input
-              type="checkbox"
-              name="light-switch"
-              className="light-switch hidden group-hover:block"
-            /> */}
-
             <label class="items-center gap-1 cursor-pointer light-switch hidden group-hover:inline-flex">
               <FaSun size="0.3em" />
               <input

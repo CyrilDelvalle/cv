@@ -63,7 +63,7 @@ const Experience = ({
 
   return (
     <li className="mb-10 ml-6">
-      <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-amber-600 rounded-full ring-4 ring-slate-100 dark:ring-gray-900">
+      <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-emerald-700 rounded-full ring-4 ring-slate-100 dark:ring-gray-900">
         {logoSociety.find((logoSociety) => logoSociety.id === id).logo}
       </span>
       <div className="flex">

@@ -26,7 +26,7 @@ const Skills = () => {
             <td className="w-40">
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "80%" }}
                 ></div>
               </div>
@@ -40,7 +40,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "60%" }}
                 ></div>
               </div>
@@ -54,7 +54,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "80%" }}
                 ></div>
               </div>
@@ -68,7 +68,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "65%" }}
                 ></div>
               </div>
@@ -82,7 +82,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "60%" }}
                 ></div>
               </div>
@@ -96,7 +96,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "60%" }}
                 ></div>
               </div>
@@ -110,7 +110,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "50%" }}
                 ></div>
               </div>
@@ -124,7 +124,7 @@ const Skills = () => {
             <td>
               <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
-                  className="h-4 bg-amber-600 rounded"
+                  className="h-4 bg-emerald-700 rounded"
                   style={{ width: "50%" }}
                 ></div>
               </div>
