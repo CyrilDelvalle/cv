@@ -12,9 +12,14 @@ const Displayed = ({ element }) => {
   );
 };
 
-const InformationElement = ({ element, icon }) => {
+const InformationElement = ({ element, icon, isLast }) => {
+  const className =
+    "inline-flex gap-4 relative items-center py-2 px-3 w-full text-sm font-medium rounded-t-lg border-gray-800 dark:border-gray-600";
+  const classNameBordered =
+    "inline-flex gap-4 relative items-center py-2 px-3 w-full text-sm font-medium rounded-t-lg border-b border-gray-800 dark:border-gray-600";
+
   return (
-    <div className="inline-flex gap-4 relative items-center py-2 px-3 w-full text-sm font-medium rounded-t-lg border-b border-gray-800 dark:border-gray-600">
+    <div className={isLast ? className : classNameBordered}>
       {icon}
       <Displayed element={element} />
     </div>

@@ -13,18 +13,18 @@ import {
 const Skills = () => {
   return (
     <div>
-      <h3 className="text-xl mb-4 text-center font-bold text-gray-900 dark:text-white">
+      <h3 className="text-xl mb-4 text-center font-bold text-gray-900 dark:text-white whitespace-nowrap">
         COMPETENCES TECHNIQUES
       </h3>
       <table className="ml-2 mt-2 w-full">
         <tbody className="w-full">
           <tr>
-            <td className="pt-2 inline-flex gap-2 text-gray-900 text-sm font-medium text-black dark:text-white">
+            <td className="pt-2 inline-flex gap-2 text-gray-900 text-sm font-medium dark:text-white">
               <SiJavascript size={20} color="#fbbf24" />
               JS
             </td>
             <td className="w-40">
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "80%" }}
@@ -38,7 +38,7 @@ const Skills = () => {
               TS
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "60%" }}
@@ -52,7 +52,7 @@ const Skills = () => {
               React
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "80%" }}
@@ -66,7 +66,7 @@ const Skills = () => {
               Next JS
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "65%" }}
@@ -80,7 +80,7 @@ const Skills = () => {
               CSS
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "60%" }}
@@ -94,7 +94,7 @@ const Skills = () => {
               Tailwind
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "60%" }}
@@ -108,7 +108,7 @@ const Skills = () => {
               NodeJS
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "50%" }}
@@ -122,7 +122,7 @@ const Skills = () => {
               C#
             </td>
             <td>
-              <div className="my-2 h-4 bg-gray-200 rounded dark:bg-gray-700 mr-2">
+              <div className="my-2 h-4 bg-gray-300 rounded dark:bg-gray-700 mr-2">
                 <div
                   className="h-4 bg-amber-600 rounded"
                   style={{ width: "50%" }}

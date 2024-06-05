@@ -9,7 +9,7 @@ const Diplomas = () => {
       <h3 className="text-2xl text-center font-bold dark:text-white mb-6">
         FORMATIONS
       </h3>
-      <ol className="relative border-l border-gray-200 dark:border-gray-400">
+      <ol className="relative border-l border-gray-500 dark:border-gray-400">
         {diplomas.map((diploma, index) => {
           return <Diploma key={index} {...diploma} />;
         })}

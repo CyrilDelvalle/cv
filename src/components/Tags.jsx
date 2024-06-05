@@ -1,4 +1,5 @@
 import React from "react";
+import { TbLetterP } from "react-icons/tb";
 import {
   SiJavascript,
   SiTypescript,
@@ -19,7 +20,7 @@ const variants = [
     display: "React",
     logo: <SiReact />,
     className:
-      "h-6 dark:bg-sky-600 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-sky-600 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 2,
@@ -27,7 +28,7 @@ const variants = [
     display: "NodeJS",
     logo: <SiNodedotjs />,
     className:
-      "h-6 dark:bg-lime-700 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-lime-700 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 3,
@@ -35,7 +36,7 @@ const variants = [
     display: "JS",
     logo: <SiJavascript />,
     className:
-      "h-6 dark:bg-yellow-600 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-yellow-600 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 4,
@@ -43,7 +44,7 @@ const variants = [
     display: "TS",
     logo: <SiTypescript />,
     className:
-      "h-6 dark:bg-sky-700 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-sky-700 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 5,
@@ -51,7 +52,7 @@ const variants = [
     display: "NextJS",
     logo: <SiNextdotjs />,
     className:
-      "h-6 dark:bg-slate-800 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-slate-800 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 6,
@@ -59,7 +60,7 @@ const variants = [
     display: "C#",
     logo: <SiCsharp />,
     className:
-      "h-6 dark:bg-purple-900 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-purple-900 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 7,
@@ -67,7 +68,7 @@ const variants = [
     display: "CSS",
     logo: <SiCss3 />,
     className:
-      "h-6 dark:bg-sky-500 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-sky-500 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 8,
@@ -75,7 +76,7 @@ const variants = [
     display: "Styled component",
     logo: <SiStyledcomponents />,
     className:
-      "h-6 dark:bg-pink-500 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-pink-500 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 9,
@@ -84,7 +85,7 @@ const variants = [
     textColor: "text-orange-500",
     logo: <GiAtomicSlashes />,
     className:
-      "h-6 dark:bg-orange-500 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-orange-500 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
   {
     id: 10,
@@ -92,7 +93,15 @@ const variants = [
     display: "Fastify",
     logo: <SiFastify />,
     className:
-      "h-6 dark:bg-slate-800 dark:text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+      "h-6 bg-slate-800 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
+  },
+  {
+    id: 11,
+    name: "pandacss",
+    display: "Pandacss",
+    logo: <TbLetterP />,
+    className:
+      "h-6 bg-yellow-700 text-gray-200 gap-2 inline-flex items-center px-2.5 py-0.5 rounded mr-2",
   },
 ];
 
@@ -107,7 +116,7 @@ const Tags = ({ skills }) => {
         return (
           <span key={"Tags-" + index} className={className}>
             {logo}
-            <h1 className="text-sm font-bold">{display}</h1>
+            <h1 className="text-base font-bold">{display}</h1>
           </span>
         );
       })}

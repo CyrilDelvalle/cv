@@ -8,7 +8,7 @@ const ProfessionalExpericences = () => {
       <h3 className="mb-6 text-2xl text-center font-bold dark:text-white">
         EXPERIENCES PROFESSIONNELLES
       </h3>
-      <ol className="relative border-l border-gray-200 dark:border-gray-400 ">
+      <ol className="relative border-l border-gray-500 dark:border-gray-400">
         {experiences.map((experience, index) => {
           return <Experience key={index} {...experience} />;
         })}

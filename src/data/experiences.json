@@ -3,11 +3,14 @@
     "id": "francetv",
     "startDate": "Juillet 2023",
     "endDate": "aujourd'hui",
-    "duration": "2 mois",
+    "duration": "1 an et 2 mois",
     "society": "FranceTV",
     "jobTitle": "Développeur Front-End React Next",
-    "skills": ["react", "typescript", "css", "nextjs"],
-    "tasks": []
+    "skills": ["react", "typescript", "css", "nextjs", "pandacss"],
+    "tasks": [
+      "Développement d'une application Next JS from scratch",
+      "Développement Front-end de la nouvelle plateforme FranceTV"
+    ]
   },
   {
     "id": "acensi",

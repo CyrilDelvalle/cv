@@ -23,6 +23,7 @@ const Contact = () => {
         <InformationElement
           icon={<BsLinkedin size="1.3em" />}
           element={linkedin}
+          isLast
         />
       </div>
     </div>

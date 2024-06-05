@@ -63,7 +63,7 @@ const Experience = ({
 
   return (
     <li className="mb-10 ml-6">
-      <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-blue-800 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-amber-600">
+      <span className="flex absolute -left-4 justify-center items-center w-8 h-8 text-white bg-amber-600 rounded-full ring-4 ring-slate-100 dark:ring-gray-900">
         {logoSociety.find((logoSociety) => logoSociety.id === id).logo}
       </span>
       <div className="flex">
@@ -77,7 +77,7 @@ const Experience = ({
               {jobTitle}
             </h3>
           </div>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+          <time className="block mb-2 text-sm font-bold  italic leading-none text-gray-700 dark:text-gray-200 ">
             {durationDisplayed}
           </time>
         </div>
@@ -86,7 +86,7 @@ const Experience = ({
       {tasks.map((task, index) => (
         <p
           key={"task-" + index}
-          className="mb-1 text-base font-normal text-gray-500 dark:text-gray-300"
+          className="mb-1 text-base font-normal text-gray-700 dark:text-gray-300"
         >
           {task}
         </p>

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import infos from "../data/Infos.json";
+import { FaSun, FaMoon } from "react-icons/fa";
 
 const { firstName, lastName, objectives, motivation } = infos;
 
 const Header = () => {
   useEffect(() => {
     const lightSwitches = document.getElementsByName("light-switch");
-    console.log(lightSwitches);
     if (lightSwitches.length > 0) {
       lightSwitches.forEach((lightSwitch, i) => {
         if (localStorage.getItem("dark-mode") === "true") {
@@ -56,18 +56,29 @@ const Header = () => {
         }}
       /> */}
       <div className="w-full py-8 flex flex-col justify-between ">
-        <h1 className="inline-flex mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="inline-flex text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           {firstName}
           <div className="w-4"></div>
-          <mark className="px-2 text-gray-900 dark:text-white bg-emerald-500 rounded dark:bg-amber-600">
+          <mark className="px-2 text-gray-900 dark:text-white bg-amber-600 rounded">
             {lastName}
           </mark>
-          <div className="group w-8 h-8 self-baseline">
-            <input
+          <div className="group w-24 h-full self-baseline ml-auto">
+            {/* <input
               type="checkbox"
               name="light-switch"
               className="light-switch hidden group-hover:block"
-            />
+            /> */}
+
+            <label class="items-center gap-1 cursor-pointer light-switch hidden group-hover:inline-flex">
+              <FaSun size="0.3em" />
+              <input
+                type="checkbox"
+                name="light-switch"
+                className="sr-only peer"
+              />
+              <div class="light-switch hidden group-hover:block relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+              <FaMoon size="0.3em" />
+            </label>
           </div>
         </h1>
         <p className="mb-4 text-lg italic font-normal lg:text-2xl text-gray-800  dark:text-gray-100">
