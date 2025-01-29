@@ -13,20 +13,22 @@ import Certifications from "./Certifications";
 const Body = () => {
   return (
     <div className="flex gap-8 ">
-      <div className="w-1/4 pt-8 flex flex-col items-center px-2">
-        <Informations />
-        <Separator />
-        <Contact />
-        <Separator />
-        <Skills />
-        <Separator />
-        <Certifications />
-        <Separator />
-        <Books />
-        <Separator />
-        <PersonnalProjects />
-        <Separator />
-        <Hobbies />
+      <div className="w-1/4 pt-8 flex items-center ">
+        <div className="flex flex-col items-center px-2 h-fit">
+          <Informations />
+          <Separator />
+          <Contact />
+          <Separator />
+          <Skills />
+          <Separator />
+          <Certifications />
+          <Separator />
+          <Books />
+          <Separator />
+          <PersonnalProjects />
+          <Separator />
+          <Hobbies />
+        </div>
       </div>
       <div className="w-3/4">
         <ProfessionalExpericences />
