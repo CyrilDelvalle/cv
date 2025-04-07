@@ -9,7 +9,8 @@
     "skills": ["react", "typescript", "css", "nextjs", "pandacss"],
     "tasks": [
       "Développement d'une application Next JS from scratch",
-      "Développement Front-end de la nouvelle plateforme FranceTV"
+      "Développement Front-end de la nouvelle plateforme FranceTV",
+      "Déploiement en production du nouveau site FranceTV"
     ]
   },
   {
